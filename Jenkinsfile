@@ -47,9 +47,7 @@ environment {
 		parallel {
 		stage ('Parallel-Task1') {
 			steps {
-			script {
-				bat 'Bat1.bat'
-				}
+				 bat(returnStatus: true, script: "${msbuild} WpfApp1/WpfApp1.sln.sln /p:Configuration=Release")
 			}
 			}
 		stage ('Parallel-Task2') {

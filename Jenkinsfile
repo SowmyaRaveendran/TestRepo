@@ -48,16 +48,14 @@ environment {
 		stage ('Parallel-Task1') {
 			steps {
 			script {
-				echo 'Parallel-Task2'
-				start 'MyButton.exe'
+				bat 'Bat1.bat'
 				}
 			}
 			}
 		stage ('Parallel-Task2') {
 			steps {
 			script {
-				echo 'Parallel-Task2'
-				start "HelloWorldApp.exe"
+				bat 'Bat2.bat'
 				}
 			}
 		}

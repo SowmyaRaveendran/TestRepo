@@ -1,1 +1,1 @@
-start "" "EXEs\HelloWorldApp.exe"
+start "" "EXEs\ConsoleApp2.exe"

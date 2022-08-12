@@ -43,5 +43,17 @@ environment {
                 }
             }
         }
+		stage('Parallel-stages-Test') {
+		parallel {
+			step {
+				start "./EXEs/MyButton.exe"
+			}
+		}
+		parallel {
+			step {
+				start "./EXEs/HelloWorldApp.exe"
+			}
+		}
+		}
     }
 }

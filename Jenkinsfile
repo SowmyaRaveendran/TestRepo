@@ -45,14 +45,22 @@ environment {
         }
 		stage('Parallel-stages-Test') {
 		parallel {
-			step {
-				start "./EXEs/MyButton.exe"
+		stage ('Parallel-Task1') {
+			steps {
+			script {
+				echo 'Parallel-Task2'
+				start 'MyButton.exe'
+				}
+			}
+			}
+		stage ('Parallel-Task2') {
+			steps {
+			script {
+				echo 'Parallel-Task2'
+				start "HelloWorldApp.exe"
+				}
 			}
 		}
-		parallel {
-			step {
-				start "./EXEs/HelloWorldApp.exe"
-			}
 		}
 		}
     }

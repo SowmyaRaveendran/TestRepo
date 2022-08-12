@@ -13,3 +13,18 @@ D:\C#\Examples\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
 D:\C#\Examples\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 D:\C#\Examples\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 D:\C#\Examples\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

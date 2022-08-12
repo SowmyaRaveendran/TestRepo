@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Debug\
+D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\obj\Release\
 WpfApp1
 none
 false
-DEBUG;TRACE
+TRACE
 D:\CJ\Pipeline-test projects\TestRepo\WpfApp1\WpfApp1\App.xaml
 11151548125
 

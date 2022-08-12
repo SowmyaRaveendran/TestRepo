@@ -47,7 +47,7 @@ environment {
 		parallel {
 		stage ('Parallel-Task1') {
 			steps {
-				 bat(returnStatus: true, script: "${msbuild} WpfApp1/WpfApp1.sln.sln /p:Configuration=Release")
+				 bat "\"${tool 'MS_Build_Local'}\" ${WORKSPACE}/WpfApp1/WpfApp1.sln /m /p:Configuration=Release /p:Platform=\"Any CPU\""
 			}
 			}
 		stage ('Parallel-Task2') {

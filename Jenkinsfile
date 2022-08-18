@@ -47,8 +47,10 @@ environment {
 		parallel {
 		stage ('Parallel-Task1') {
 			steps {
+                script {
 				// bat 'Bat1.bat'
-				start EXEs\ConsoleApp1.exe
+				start ConsoleApp1.exe
+                }
 			}
 			}
 		stage ('Parallel-Task2') {

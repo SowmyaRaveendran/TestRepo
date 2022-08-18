@@ -49,7 +49,7 @@ environment {
 			steps {
                 script {
 				// bat 'Bat1.bat'
-				start ConsoleApp1.exe
+				run 'ConsoleApp1.exe'
                 }
 			}
 			}

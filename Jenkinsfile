@@ -49,7 +49,7 @@ environment {
 			steps {
                 script {
 				// bat 'Bat1.bat'
-                echo "TimeStamp1: ${currentBuild.startTime}"
+                echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
 				run 'ConsoleApp1.exe'
                 }
 			}

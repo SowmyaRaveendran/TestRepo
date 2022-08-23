@@ -50,7 +50,7 @@ environment {
                 script {
 				// bat 'Bat1.bat'
                 echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
-				run 'ConsoleApp1.exe'
+				echo bat(script: 'ConsoleApp1.exe')
                 }
 			}
 			}
@@ -58,7 +58,8 @@ environment {
 			steps {
 			script {
                 echo "TimeStamp2: ${currentBuild.startTimeInMillis}"
-				bat 'call "Bat2.bat"'
+				echo bat(script: 'ConsoleApp2.exe')
+				// bat 'call "Bat1.bat"'
 				}
 			}
 		}

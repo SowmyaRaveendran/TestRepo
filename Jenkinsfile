@@ -50,7 +50,7 @@ environment {
                 script {
 				// bat 'Bat1.bat'
                 echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
-				echo bat(script: 'ConsoleApp1.exe')
+				echo bat(returnStdout: true, script: 'ConsoleApp1.exe')
                 }
 			}
 			}

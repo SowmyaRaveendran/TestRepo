@@ -36,7 +36,6 @@ environment {
 		stage ('Parallel-Task1') {
 			steps {
                 script {
-				// bat 'Bat1.bat'
                 //echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
 				echo bat(returnStdout: true, script: 'ConsoleApp1.exe')
                 }

@@ -2,6 +2,7 @@ pipeline {
     agent any
 environment {
         VERSION = ''
+        manifestFilePath = "${env.WORKSPACE}\\${ITEM_FULL_NAME}\\"
     }
         stages {
         stage('GetInput') {
@@ -37,7 +38,7 @@ environment {
 			steps {
                 script {
                 //echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
-				echo bat(returnStdout: true, script: 'ConsoleApp1.exe')
+				echo bat(returnStdout: true, script: manifestFilePath + 'ConsoleApp1.exe')
                 }
 			}
 			}
@@ -45,8 +46,8 @@ environment {
 			steps {
 			script {
                 //echo "TimeStamp2: ${currentBuild.startTimeInMillis}"
-				echo bat(script: 'ConsoleApp2.exe')
-				// bat 'call "Bat1.bat"'
+				// echo bat(script: 'ConsoleApp2.exe')
+				bat 'call "Bat1.bat"'
 				}
 			}
 		}

@@ -37,15 +37,15 @@ environment {
 		stage ('Parallel-Task1') {
 			steps {
                 script {
-                //echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
-				echo bat(returnStdout: true, script: manifestFilePath + 'ConsoleApp1.exe')
+                echo "TimeStamp1: ${currentBuild.startTimeInMillis}"
+				echo bat(returnStdout: false, script: manifestFilePath + 'ConsoleApp1.exe')
                 }
 			}
 			}
 		stage ('Parallel-Task2') {
 			steps {
 			script {
-                //echo "TimeStamp2: ${currentBuild.startTimeInMillis}"
+                echo "TimeStamp2: ${currentBuild.startTimeInMillis}"
 				// echo bat(script: 'ConsoleApp2.exe')
 				bat 'call "Bat1.bat"'
 				}
